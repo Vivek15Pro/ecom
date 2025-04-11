@@ -15,6 +15,7 @@ const App = () => {
 };
 // const store = createBrowserRouter([{}])
 
+
 const appRout = createBrowserRouter([
   {
     path: '/',
@@ -23,7 +24,7 @@ const appRout = createBrowserRouter([
     children: [
       {
         path: 'about', 
-        element: <About />,
+        element: <ClassCompo />,
       },
     ],
   },

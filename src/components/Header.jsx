@@ -13,7 +13,6 @@ const Header = () => {
     <div>
     <Link to={'/about'}> About</Link>
         </div>
-  
     <div>Contact</div>
     <div>Kuch bhi</div>
    </div>

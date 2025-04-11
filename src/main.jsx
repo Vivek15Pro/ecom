@@ -8,7 +8,6 @@ import appRout from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={appRout}>
-    <App />
     </RouterProvider>
   </StrictMode>,
 )
